@@ -12,7 +12,6 @@ import { allFetch } from "../../utils/BHMo";
 import { createCanvas, loadImage } from "canvas";
 
 import crops from "../../data/crop/crops.json";
-import level from "../../data/crop/level.json";
 import cropColors from "../../data/crop/cropColors.json";
 
 export default class Ping extends Command {
