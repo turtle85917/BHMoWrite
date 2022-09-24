@@ -1,4 +1,4 @@
 export interface record {
-    id: string;
-    damage: string;
+  id: string;
+  damage: string;
 }

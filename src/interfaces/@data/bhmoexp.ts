@@ -1,4 +1,4 @@
 export interface bhmoexp {
-    lv: number;
-    max: number;
+  lv: number;
+  max: number;
 }

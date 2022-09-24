@@ -13,7 +13,7 @@
     "ping": {
       "loading": "I'm alive! (pinging...)",
       "failed": "I'm alive! (but couldn't pong...)",
-      "ok": "I'm alive! ({ping}㎳)"
+      "ok": "I'm alive! ({0}㎳)"
     },
     "link": {
       "already-t": "You have linked already!",
@@ -28,7 +28,7 @@
       "tags": "Additional Thinks",
       "newbie": "👶 Newbie",
       "administrator": "👑 Administrator",
-      "healAcceleration": "+{hAccel} pre 10 minutes"
+      "healAcceleration": "+{0} pre 10 minutes"
     },
     "set": {
       "error-locale": "Only `ko` or `en` is supported.",
@@ -61,7 +61,7 @@
         "gem": "Gem",
         "usage": "Usage"
       },
-      "end-in": "Ends {endIn}",
+      "end-in": "Ends {0}",
       "crop-level": {
         "dirt": "Dirt",
         "germination": "Germination",

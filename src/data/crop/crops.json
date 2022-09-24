@@ -1,35 +1,111 @@
 {
-    "딸기": "strawberry",
-    "토마토": "tomato",
-    "옥수수": "corn",
-    "고구마": "sweet-potato",
-    "감자": "potato",
-    "밀": "wheat",
-    "벼": "rice",
-    "양파": "onion",
-    "마늘": "garlic",
-    "목화": "cotton",
-    "콩": "bean",
-    "사탕수수": "sugarcane",
-    "인터갤럭틱 베리": "intergalactic-berry",
-    "호박": "pumpkin",
-    "애호박": "pumpkin",
-    "사과": "apple",
-    "사과 나무": "apple",
-    "사과나무": "apple",
-    "사과나무 묘목": "apple",
-    "사과 나무 묘목": "apple",
-    "apple tree": "apple",
-    "apple-tree": "apple",
-    "포도": "grape",
-    "포도 나무": "grape",
-    "포도나무": "grape",
-    "포도나무 묘목": "grape",
-    "포도 나무 묘목": "grape",
-    "grape tree": "grape",
-    "grape-tree": "grape",
-    "소나무": "pine",
-    "소나무 묘목": "pine",
-    "pine tree": "pine",
-    "pine-tree": "pine"
+  "strawberry": {
+    "icon": "🍓",
+    "name": "딸기",
+    "color": "#E96161",
+    "aliases": ["strawberry", "딸기"]
+  },
+  "tomato": {
+    "icon": "🍅",
+    "name": "토마토",
+    "color": "#E24545",
+    "aliases": ["tomato", "토마토"]
+  },
+  "corn": {
+    "icon": "🌽",
+    "name": "옥수수",
+    "color": "#F1F260",
+    "aliases": ["corn", "옥수수"]
+  },
+  "sweet-potato" : {
+    "icon": "🍠",
+    "name": "고구마",
+    "color": "#F2B760",
+    "aliases": ["sweetpotato", "고구마"]
+  },
+  "potato" : {
+    "icon": "🥔",
+    "name": "감자",
+    "color": "#BA7817",
+    "aliases": ["potato", "감자"]
+  },
+  "wheat" : {
+    "icon": "🌾",
+    "name": "밀",
+    "color": "#A7A34D",
+    "aliases": ["wheat", "밀"]
+  },
+  "rice" : {
+    "icon": "🌾",
+    "name": "벼",
+    "color": "#A7A34D",
+    "aliases": ["rice", "벼"]
+  },
+  "onion" : {
+    "icon": "🧅",
+    "name": "양파",
+    "color": "#F5C11D",
+    "aliases": ["onion", "양파"]
+  },
+  "garlic" : {
+    "icon": "🧄",
+    "name": "마늘",
+    "color": "#C9C3B0",
+    "aliases": ["garlic", "마늘"]
+  },
+  "cotton" : {
+    "icon": "☁",
+    "name": "목화",
+    "color": "#878270",
+    "aliases": ["cotton", "목화"]
+  },
+  "bean" : {
+    "icon": "🥑",
+    "name": "콩",
+    "color": "#91C919",
+    "aliases": ["bean", "콩"]
+  },
+  "sugarcane" : {
+    "icon": "🎍",
+    "name": "사탕수수",
+    "color": "#48ED15",
+    "aliases": ["sugarcance", "사탕수수"]
+  },
+  "intergalactic-berry" : {
+    "icon": "🧿",
+    "name": "인터갤럭틱 베리",
+    "color": "#1597ED",
+    "aliases": ["intergalacticberry", "인터갤럭틱베리"]
+  },
+  "pumpkin" : {
+    "icon": "🎃",
+    "name": "호박",
+    "color": "#FFAD07",
+    "aliases": ["pumpkin", "호박"],
+    "$other": {
+      "young-pumpkin": {
+        "name": "애호박",
+        "color": "#A7E457",
+        "aliases": ["youngpumpkin", "애호박"]
+      }
+    }
+  },
+  "apple" : {
+    "icon": "🍎",
+    "name": "사과나무",
+    "color": "#EA1E1E",
+    "aliases": ["사과", "사과나무", "사과나무묘목", "appletree", "apple"]
+  },
+  "grape" : {
+    "icon": "🍇",
+    "name": "포도나무",
+    "color": "#942CC9",
+    "aliases": ["포도", "포도나무", "포도나무묘목", "grapetree", "grape"]
+  },
+  "pine" : {
+    "icon": "🌲",
+    "name": "소나무",
+    "color": "#96651D",
+    "aliases": ["송진", "소나무", "소나무묘목", "pinetree"]
+  }
 }
