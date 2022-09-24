@@ -43,6 +43,9 @@ export default class Help extends Command {
           {req.t("command.help.category.manage")}
           <br/>
           {getCommands("Manage")}
+          <footer iconURL="https://cdn.discordapp.com/avatars/674877162557407242/95161c92060e639aa5bb44fcfa965741.png?size=2048&quality=high">
+            Made by 플토
+          </footer>
         </embed>
       )
     })
