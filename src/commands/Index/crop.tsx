@@ -3,7 +3,6 @@ import { AttachmentBuilder, Message } from "discord.js";
 import { bhmo } from "../../interfaces/@data/bhmo";
 import { setting } from "../../interfaces/@data/setting";
 import Command from "../../interfaces/structures/Command";
-import { staticCrop } from "../../interfaces/endpoint/BHMo/basic/static-crop";
 import { database, req } from "../../..";
 import { allFetch } from "../../utils/BHMo";
 import { createCanvas, loadImage } from "canvas";
@@ -53,7 +52,7 @@ export default class Ping extends Command {
       return;
     }
 
-    const realResult: staticCrop = currentData.result;
+    const realResult: StaticCrop = currentData.result;
 
     const canvas = createCanvas(540, 390);
     const ctx = canvas.getContext("2d");

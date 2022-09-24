@@ -2,7 +2,6 @@ import { Client, Fragment, createElement } from "discord-tsx-factory";
 import { Message } from "discord.js";
 import { bhmo } from "../../interfaces/@data/bhmo";
 import Command from "../../interfaces/structures/Command";
-import { linkByDiscord } from "../../interfaces/endpoint/BHMo/user/link-by-discord";
 import { commandData, database, Interaction, req, res } from "../../..";
 import { Logger } from "../../utils/Logger";
 import { allFetch } from "../../utils/BHMo";
@@ -71,7 +70,7 @@ export default class Link extends Command {
       return;
     }
 
-    const realResult: linkByDiscord = currentData.result;
+    const realResult: LinkByDiscord = currentData.result;
     const data: bhmo = (await database("bhmo").where({ guildIdExternal: message.guildId, userIdExternal: message.author.id, id: realResult.id }))[0];
     if (data) {
       message.reply({

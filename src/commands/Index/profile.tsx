@@ -3,7 +3,6 @@ import { Message } from "discord.js";
 import { bhmo } from "../../interfaces/@data/bhmo";
 import { bhmoexp } from "../../interfaces/@data/bhmoexp";
 import Command from "../../interfaces/structures/Command";
-import { link } from "../../interfaces/endpoint/BHMo/user/link";
 import { BHMoExp, Buff, commandData, database, req } from "../../..";
 import { allFetch } from "../../utils/BHMo";
 import { getBar } from "../../utils/Utility";
@@ -52,7 +51,7 @@ export default class Profileb extends Command {
       return;
     }
 
-    const realResult: link = currentData.result;
+    const realResult: Link = currentData.result;
 
     const levelUpExp: bhmoexp = (await BHMoExp("BHMoExp").where({ lv: realResult.data.level }))[0];
     const beforeExp: bhmoexp = realResult.data.level === 1 ? { lv: 0, max: 0 } : (await BHMoExp("BHMoExp").where({ lv: realResult.data.level - 1 }))[0];

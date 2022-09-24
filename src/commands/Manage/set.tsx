@@ -1,4 +1,4 @@
-import { Client, Fragment, createElement } from "discord-tsx-factory";
+import { Client, createElement } from "discord-tsx-factory";
 import { Message } from "discord.js";
 import { bhmo } from "../../interfaces/@data/bhmo";
 import { setting } from "../../interfaces/@data/setting";
