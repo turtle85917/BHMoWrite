@@ -1,0 +1,108 @@
+{
+  "command": {
+    "help": {
+      "title": "👋 Hello.",
+      "category": {
+        "view": "ℹ️ For interrogating",
+        "manage": "📠 For managing"
+      },
+      "error-sent": "Please allow me to send you a DM... 😢",
+      "sent": "ℹ️ Please check your DM!",
+      "commands": "🎛️ __Commands__"
+    },
+    "ping": {
+      "loading": "I'm alive! (pinging...)",
+      "failed": "I'm alive! (but couldn't pong...)",
+      "ok": "I'm alive! ({ping}㎳)"
+    },
+    "link": {
+      "already-t": "You have linked already!",
+      "already-q": "Are you sure you want to link with this server too?",
+      "already-d": "You are succeeded in linking with the BHMo.",
+      "error-existing-link": "You have already linked! This command can only be used when you are not a linked account."
+    },
+    "profile": {
+      "link": "🔗 Linked account",
+      "health": "💙 Health",
+      "buffs": "Buffs",
+      "tags": "Additional Thinks",
+      "newbie": "👶 Newbie",
+      "administrator": "👑 Administrator",
+      "healAcceleration": "+{hAccel} pre 10 minutes"
+    },
+    "set": {
+      "error-locale": "Only `ko` or `en` is supported.",
+      "d": "Successfully set!",
+      "d-locale-ko": "이제 한국어를 쓸게요.",
+      "d-locale-en": "From now on I'll speak in English.",
+      "error-boolean": "Please enter Y or n.",
+      "d-damage-write-y": "Now going to record the intensity of wild animals' attacks.",
+      "d-damage-write-n": "Now not going to record the intensity of wild animal attacks anymore."
+    }
+  },
+  "blue-haired-moremi": {
+    "api-error": {
+      "401": "Authentication failed for BHMo Api communication.",
+      "404": "There are no users or servers, crops, items, trades, or biddings.",
+      "406": "I think I blocked your data from being used.",
+      "429": "I don't have enough gas to talk to."
+    }
+  },
+  "g": {
+    "common": {
+      "error": "⚠️ Error!",
+      "information": "ℹ️ Notice",
+      "expired": "*(Expired interaction)*",
+      "not-allowed-on-dm": "Commands don't work on DM.",
+      "empty": "-",
+      "term": {
+        "libra": "Libra",
+        "strawberry": "Strawberry",
+        "gem": "Gem",
+        "usage": "Usage"
+      },
+      "end-in": "Ends {endIn}",
+      "crop-level": {
+        "dirt": "Dirt",
+        "germination": "Germination",
+        "fruit": "Harvest",
+        "maturity": "Mature"
+      },
+      "tree-level": {
+        "germination": "Sapling",
+        "maturity": "Flower",
+        "fruit": "Harvest"
+      },
+      "embed": {
+        "write-t": "📝 Recorded"
+      }
+    },
+    "component": {
+      "confirm": {
+        "yes": "Yes!",
+        "no": "No"
+      },
+      "write": {
+        "wildanimal-damage-d": "The strength of the wild animal's attack was recorded.",
+        "minigame-result-q": "📝 Record minigames results",
+        "minigame-result-d0": "You did a great job making the item!",
+        "minigame-result-confirm-d": "Can I record the minigames results?",
+        "minigame-result-d1": "The results have been recorded!"
+      }
+    },
+    "error": {
+      "exclusive": "Only message owner can do that.",
+      "bot-restart": "The bot has been restarted and the command must be executed again!",
+      "cooltime": "I think you entered the same command again in less than a second.",
+      "linked-only": "You can use this command after linking your BHMo account by using the `link` command.",
+      "unhandled": "😵 I'm broken...",
+      "not-allowed": "It's not allowed.",
+      "one-of": "One of"
+    }
+  },
+  "crop": {
+    "young-pumpkin": {
+      "name": "Young pumpkin"
+    }
+  }
+}

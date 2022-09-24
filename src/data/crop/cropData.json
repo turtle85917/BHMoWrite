@@ -1,0 +1,19 @@
+{
+    "strawberry": { "icon": "🍓", "name": "딸기" },
+    "tomato": { "icon": "🍅", "name": "토마토" },
+    "corn": { "icon": "🌽", "name": "옥수수" },
+    "sweet-potato": { "icon": "🍠", "name": "고구마" },
+    "potato": { "icon": "🥔", "name": "감자" },
+    "wheat": { "icon": "🌾", "name": "밀" },
+    "rice": { "icon": "🌾", "name": "벼" },
+    "onion": { "icon": "🧅", "name": "양파" },
+    "garlic": { "icon": "🧄", "name": "마늘" },
+    "cotton": { "icon": "☁", "name": "목화" },
+    "bean": { "icon": "🥑", "name": "콩" },
+    "sugarcane": { "icon": "🎍", "name": "사탕수수" },
+    "intergalactic-berry": { "icon": "🧿", "name": "인터갤럭틱 베리" },
+    "pumpkin": { "icon": "🎃", "name": "호박" },
+    "apple": { "icon": "🍎", "name": "사과나무" },
+    "grape": { "icon": "🍇", "name": "포도나무" },
+    "pine": { "icon": "🌲", "name": "소나무" }
+}

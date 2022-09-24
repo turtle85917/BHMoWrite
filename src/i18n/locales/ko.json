@@ -1,0 +1,108 @@
+{
+  "command": {
+    "help": {
+      "title": "👋 안녕하세요.",
+      "category": {
+        "view": "ℹ️ 확인하기",
+        "manage": "📠 관리하기"
+      },
+      "error-sent": "제가 DM을 보낼 수 있게 해 주세요... 😢",
+      "sent": "ℹ️ 도움말을 DM으로 보내드렸어요!",
+      "commands": "🎛️ __명령어 목록__"
+    },
+    "ping": {
+      "loading": "살아 있어요. (핑 측정 중)",
+      "failed": "살아 있어요. (핑 측정 실패)",
+      "ok": "살아 있어요. ({ping}㎳)"
+    },
+    "link": {
+      "already-t": "파란 머리 모레미와 연동되어 있군요!",
+      "already-q": "정말 이 서버와도 연동할까요?",
+      "already-d": "파란 머리 모레미와 연동에 성공했어요.",
+      "error-existing-link": "이미 연동하신 적이 있군요! 이 기능은 연동한 적이 없을 때에만 쓸 수 있어요."
+    },
+    "profile": {
+      "link": "🔗 계정 연동",
+      "health": "💙 활동력",
+      "buffs": "버프",
+      "tags": "부가 사항",
+      "newbie": "👶 새내기",
+      "administrator": "👑 관리자",
+      "healAcceleration": "10분당 +{hAccel}"
+    },
+    "set": {
+      "error-locale": "`ko` 또는  `en`만 지원해요.",
+      "d": "정상적으로 설정됐어요!",
+      "d-locale-ko": "이제 한국어를 쓸게요.",
+      "d-locale-en": "From now on I'll speak in English.",
+      "error-boolean": "Y 또는 n을 입력해 주세요.",
+      "d-damage-write-y": "이제 습격된 야생동물이 깎은 체력을 기록할 거예요.",
+      "d-damage-write-n": "이제 습격된 야생동물이 깎은 체력을 기록하지 않을 거예요."
+    }
+  },
+  "blue-haired-moremi": {
+    "api-error": {
+      "401": "파란 머리 모레미 API에 대한 인증에 실패했어요.",
+      "404": "그런 여행자 또는 서버, 작물, 아이템, 거래, 호가가 없어요.",
+      "406": "당신의 데이터가 사용하지 못하게 막으신 것 같아요.",
+      "429": "파란 머리 모레미와 대화하기 위한 가스가 부족해요."
+    }
+  },
+  "g": {
+    "common": {
+      "error": "⚠️ 오류!",
+      "information": "ℹ️ 안내",
+      "expired": "*(만료된 상호작용입니다.)*",
+      "not-allowed-on-dm": "DM에서는 명령어가 작동하지 않아요.",
+      "empty": "-",
+      "term": {
+        "libra": "성력",
+        "strawberry": "딸기",
+        "gem": "보석",
+        "usage": "용법"
+      },
+      "end-in": "{endIn} 종료",
+      "crop-level": {
+        "dirt": "흙",
+        "germination": "새싹",
+        "fruit": "수확",
+        "maturity": "성숙"
+      },
+      "tree-level": {
+        "germination": "묘목",
+        "maturity": "꽃",
+        "fruit": "수확"
+      },
+      "embed": {
+        "write-t": "📝 기록됨"
+      }
+    },
+    "component": {
+      "confirm": {
+        "yes": "네!",
+        "no": "아니요"
+      },
+      "write": {
+        "wildanimal-damage-d": "습격한 야생동물이 깎은 체력이 기록되었어요.",
+        "minigame-result-q": "📝 미니게임 결과 기록",
+        "minigame-result-d0": "아이템 제작 정말 수고 많으셨어요!",
+        "minigame-result-confirm-d": "혹시 미니게임 결과를 기록해도 될까요?",
+        "minigame-result-d1": "미니게임 결과가 기록되었어요!"
+      }
+    },
+    "error": {
+      "exclusive": "선택권은 메시지 주인에게만 있어요!",
+      "bot-restart": "봇이 재시작된 상태여서 명령어를 다시 실행시켜야 할 것 같아요!",
+      "cooltime": "같은 명령어를 1초 미만 안에 한 번 더 입력하신 것 같아요.",
+      "linked-only": "이 명령어는 `link` 명령어로 파란 머리 모레미 계정을 연동한 뒤에 쓸 수 있어요.",
+      "unhandled": "😵 고장났어요...",
+      "not-allowed": "접근 방법이 잘못되었어요.",
+      "one-of": "다음 중 하나"
+    }
+  },
+  "crop": {
+    "young-pumpkin": {
+      "name": "애호박"
+    }
+  }
+}
